@@ -21,7 +21,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <div
               key={skill}
-              className="bg-gray-800 p-4 rounded cursor:pointer hover:text-blue-500 hover:scale-105 transform transition duration-200 ease-in-out"
+              className="bg-gray-800 p-4 rounded cursor:pointer hover:bg-blue-700 hover:scale-105 transform transition duration-200 ease-in-out"
               style={{ cursor: "pointer" }}
             >
               {skill}
