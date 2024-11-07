@@ -1,4 +1,3 @@
-// src/components/Certifications.js
 import React from "react";
 
 const certifications = [

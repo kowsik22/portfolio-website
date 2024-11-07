@@ -3,22 +3,19 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
 
-  // Toggle menu visibility for mobile view
   const toggleMenu = () => {
     setIsMobile(!isMobile);
   };
 
   const handleLinkClick = () => {
-    setIsMobile(false); // Close the dropdown
+    setIsMobile(false);
   };
 
   return (
     <nav className="bg-gray-700 text-white fixed w-full top-0 left-0 shadow-md z-10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
         <h1 className="text-2xl font-semibold">Kowsik's Portfolio</h1>
 
-        {/* Mobile Hamburger Icon */}
         <div className="sm:hidden">
           <button onClick={toggleMenu} className="text-white">
             <svg
@@ -38,7 +35,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Navbar Links */}
         <ul
           className={`sm:flex ${
             isMobile
