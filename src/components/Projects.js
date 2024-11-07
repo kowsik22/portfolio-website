@@ -49,7 +49,6 @@ const projects = [
     github: "https://bit.ly/4fgFWUD",
     skills: "Html, React, Tailwind CSS",
   },
-  // Add more projects as needed
 ];
 
 const Projects = () => {
@@ -77,6 +76,7 @@ const Projects = () => {
               <a
                 href={project.github}
                 target="_blank"
+                rel="github"
                 className="text-blue-500 cursor-pointer hover:scale-105 transform transition duration-200 ease-in-out"
                 style={{ border: "none" }}
               >
