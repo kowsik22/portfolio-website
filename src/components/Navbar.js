@@ -66,20 +66,29 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#contact"
-              className="hover:text-blue-500 block text-center"
-              onClick={handleLinkClick}
-            >
-              Contact
-            </a>
-          </li>
-          <li>
-            <a
               href="#projects"
               className="hover:text-blue-500 block text-center"
               onClick={handleLinkClick}
             >
               Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="#certifications"
+              className="hover:text-blue-500 block text-center"
+              onClick={handleLinkClick}
+            >
+              Certifications
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="hover:text-blue-500 block text-center"
+              onClick={handleLinkClick}
+            >
+              Contact
             </a>
           </li>
         </ul>

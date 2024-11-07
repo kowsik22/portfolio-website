@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Certifications from "./components/certifications";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Certifications />
       <Contact />
     </div>
   );
