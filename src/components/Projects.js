@@ -3,39 +3,45 @@ import React from "react";
 
 const projects = [
   {
-    title: "Guess My Number",
+    title: "PostNest",
+    description:
+      "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features, real-time validation, and optimized cross-device compatibility. ",
+    image: "assets/ps.png",
+    github: "https://bit.ly/3Avd37R",
+  },
+  {
+    title: "Foodies",
     description:
       "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features, real-time validation, and optimized cross-device compatibility. ",
     image: "assets/r-1.png",
+    github: "https://bit.ly/3YAWFux",
   },
   {
     title: "PG Life",
     description: "A web app to help students find PG accommodations.",
     image: "assets/pg.png",
+    github: "https://bit.ly/40Dhvfw",
   },
   {
-    title: "Guess My Number",
+    title: "Livestockify Dashboard",
     description:
       "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features, real-time validation, and optimized cross-device compatibility. ",
     image: "assets/live.png",
+    github: "https://bit.ly/48BeIp7",
   },
   {
-    title: "Guess My Number",
-    description:
-      "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features, real-time validation, and optimized cross-device compatibility. ",
-    image: "assets/ps.png",
-  },
-  {
-    title: "Guess My Number",
+    title: "TODO",
     description:
       "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features, real-time validation, and optimized cross-device compatibility. ",
     image: "assets/todo.png",
+    github: "https://bit.ly/3CiQG6l",
   },
   {
-    title: "Guess My Number",
+    title: "Task App",
     description:
       "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features, real-time validation, and optimized cross-device compatibility. ",
     image: "assets/tsm.png",
+    github: "https://bit.ly/4fgFWUD",
   },
   // Add more projects as needed
 ];
@@ -55,6 +61,14 @@ const Projects = () => {
               />
               <h3 className="text-2xl font-semibold">{project.title}</h3>
               <p className="mt-2 text-gray-700">{project.description}</p>
+              <a
+                href={project.github}
+                target="_blank"
+                className="text-blue-500 cursor-pointer hover:scale-105 transform transition duration-200 ease-in-out"
+                style={{ border: "none" }}
+              >
+                {project.github}
+              </a>
             </div>
           ))}
         </div>
