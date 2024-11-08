@@ -17,7 +17,7 @@ const Hero = () => {
         <img
           src="/assets/img1.jpg"
           alt="Profile"
-          className="mb-4 w-32 h-32 sm:w-72 sm:h-72  rounded-full object-cover"
+          className="mb-4 w-32 h-32 sm:w-72 sm:h-72  rounded-full object-cover hover:scale-105 transform transition duration-200 ease-in-out cursor-pointer"
         />
         <h1 className="text-3xl sm:text-5xl font-bold mb-4">Hi, I'm Kowsik</h1>
         <p className="text-lg sm:text-xl mb-6">
