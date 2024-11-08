@@ -1,10 +1,4 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faGithub,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -78,33 +72,6 @@ const Contact = () => {
           </button>
         </form>
         {status && <p className="mt-4 text-xl text-gray-300">{status}</p>}
-
-        <div className="flex justify-center mt-8 space-x-6">
-          <a
-            href="https://tinyurl.com/ys5w4nuf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-blue-400"
-          >
-            <FontAwesomeIcon icon={faLinkedin} size="2x" />
-          </a>
-          <a
-            href="https://github.com/kowsik22"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white"
-          >
-            <FontAwesomeIcon icon={faGithub} size="2x" />
-          </a>
-          <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-blue-500"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
-          </a>
-        </div>
       </div>
     </section>
   );
