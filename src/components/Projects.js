@@ -30,7 +30,7 @@ const projects = [
     description:
       "The Livestockify Dashboard is an intuitive farm management tool enabling real-time tracking of essential metrics like temperature, humidity, and ammonia levels. With responsive design, device management, alerts, and actionable insights, it helps farmers enhance farm productivity.",
     image: "assets/live.png",
-    github: "https://bit.ly/48BeIp7",
+    github: "https://tinyurl.com/yc883k4h",
     skills: " React, Tailwind CSS",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     description:
       "Developed a task management web app using React, enabling users to organize and prioritize tasks efficiently. With a focus on usability, the app offers a clean interface and ensures a smooth experience across multiple devices.",
     image: "assets/tsm.png",
-    github: "https://bit.ly/4fgFWUD",
+    github: "https://tinyurl.com/4vp6czuf",
     skills: "Html, React, Tailwind CSS",
   },
 ];

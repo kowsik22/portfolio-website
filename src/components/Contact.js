@@ -81,7 +81,7 @@ const Contact = () => {
 
         <div className="flex justify-center mt-8 space-x-6">
           <a
-            href="www.linkedin.com/in/kowsik-narumanchi"
+            href="https://tinyurl.com/ys5w4nuf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-blue-400"
