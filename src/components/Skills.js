@@ -8,7 +8,7 @@ import {
   faGithub,
   faPython,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons"; // Generic code icon for Django
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 const skills = [
   {
