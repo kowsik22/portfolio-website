@@ -61,6 +61,15 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              href="#skills"
+              className="hover:text-blue-500 block text-center"
+              onClick={handleLinkClick}
+            >
+              Technologies
+            </a>
+          </li>
+          <li>
+            <a
               href="#projects"
               className="hover:text-blue-500 block text-center"
               onClick={handleLinkClick}
@@ -75,15 +84,6 @@ const Navbar = () => {
               onClick={handleLinkClick}
             >
               Certifications
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contact"
-              className="hover:text-blue-500 block text-center"
-              onClick={handleLinkClick}
-            >
-              Contact
             </a>
           </li>
         </ul>
