@@ -42,7 +42,7 @@ const projects = [
     skills: " Html, React, Tailwind CSS",
   },
   {
-    title: "Task App",
+    title: "TASK APP",
     description:
       "Developed a task management web app using React, enabling users to organize and prioritize tasks efficiently. With a focus on usability, the app offers a clean interface and ensures a smooth experience across multiple devices.",
     image: "assets/tsm.png",
@@ -56,7 +56,7 @@ const Projects = () => {
     <section id="projects" className="py-20 bg-gray-100 text-gray-900">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-8">Projects</h2>
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6  md:grid-cols-2">
           {projects.map((project) => (
             <div key={project.title} className="bg-white p-6 rounded shadow">
               <a
@@ -71,16 +71,16 @@ const Projects = () => {
                 />
               </a>
               <h3 className="text-2xl font-semibold">{project.title}</h3>
-              <p className="mt-2 text-gray-700">{project.description}</p>
-              <p className-="">{project.skills}</p>
+              <p className="mt-2 mb-3 text-gray-700">{project.description}</p>
+              <h5 className=" mb-4 text-blue-500">{project.skills}</h5>
               <a
                 href={project.github}
                 target="_blank"
                 rel="github"
-                className="text-blue-500 cursor-pointer hover:scale-105 transform transition duration-200 ease-in-out"
+                className="text-white bg-red-500 text-1xl font-bold px-2 py-2  rounded cursor-pointer hover:scale-105 transform transition duration-200 ease-in-out"
                 style={{ border: "none" }}
               >
-                {project.github}
+                Live Preview
               </a>
             </div>
           ))}

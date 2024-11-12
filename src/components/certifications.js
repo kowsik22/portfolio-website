@@ -45,7 +45,7 @@ const Certifications = () => {
               <p className="text-gray-700 mb-1">
                 <strong>Organization:</strong> {cert.organization}
               </p>
-              <p className="text-gray-700 mb-1">
+              <p className="text-gray-700 mb-6">
                 <strong>Skill:</strong> {cert.skill}
               </p>
               {cert.link && (
@@ -53,7 +53,7 @@ const Certifications = () => {
                   href={cert.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline"
+                  className=" hover:underline bg-blue-500 text-white text-1xl  font-bold px-2 py-2 rounded hover:bg-blue-400 "
                   style={{ "text-decoration": "none" }}
                 >
                   View Certification
