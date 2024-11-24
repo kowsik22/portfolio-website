@@ -65,9 +65,9 @@ const skills = [
 
 const Skills = () => (
   <section id="skills" className="py-10 bg-gray-900 text-white">
-    <div className="max-w-3xl mx-auto px-6 text-center">
+    <div className="max-w-xl mx-auto px-6 text-center">
       <h2 className="text-4xl font-bold mb-6">Technologies</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
         {skills.map((skill, index) => (
           <div
             key={index}

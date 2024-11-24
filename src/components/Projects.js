@@ -34,6 +34,14 @@ const projects = [
     skills: " React, Tailwind CSS",
   },
   {
+    title: "Screen Time Management",
+    description:
+      "An interactive platform to monitor and reduce screen time effectively. Includes features like real-time usage tracking, reminders for exceeding time limits, focus modes, gamification, and insights into weekly and monthly usage patterns.",
+    image: "assets/screen.png",
+    github: "https://router-six-omega.vercel.app/",
+    skills: "React, Tailwind CSS",
+  },
+  {
     title: "TODO",
     description:
       "Built a simple and responsive to-do list app with React, offering a user-friendly interface for managing tasks. The app supports real-time updates, making task management seamless and accessible on all devices.",
