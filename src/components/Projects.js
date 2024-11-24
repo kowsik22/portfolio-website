@@ -9,22 +9,22 @@ const projects = [
     github: "https://bit.ly/3Avd37R",
     skills: "Django, React, Tailwind CSS",
   },
-  // {
-  //   title: "Foodies",
-  //   description:
-  //     "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features and real-time validation. ",
-  //   image: "assets/r-1.png",
-  //   github: "https://bit.ly/3YAWFux",
-  //   skills: " javascript, Tailwind CSS",
-  // },
-  // {
-  //   title: "PG Life",
-  //   description:
-  //     "Designed a web app aimed at helping students find suitable PG accommodations. The app streamlines the process of searching for and booking PGs, providing an easy-to-use interface for students seeking housing near their universities.",
-  //   image: "assets/pg.png",
-  //   github: "https://bit.ly/40Dhvfw",
-  //   skills: " Html, Css, React, Bootstrap, Php, Mysql",
-  // },
+  {
+    title: "Foodies",
+    description:
+      "Developed a responsive restaurant website using HTML, CSS, JavaScript, and Bootstrap, boosting user engagement by 50% with interactive ordering features and real-time validation. ",
+    image: "assets/r-1.png",
+    github: "https://bit.ly/3YAWFux",
+    skills: " javascript, Tailwind CSS",
+  },
+  {
+    title: "PG Life",
+    description:
+      "Designed a web app aimed at helping students find suitable PG accommodations. The app streamlines the process of searching for and booking PGs, providing an easy-to-use interface for students seeking housing near their universities.",
+    image: "assets/pg.png",
+    github: "https://bit.ly/40Dhvfw",
+    skills: " Html, Css, React, Bootstrap, Php, Mysql",
+  },
   {
     title: "Livestockify Dashboard",
     description:
